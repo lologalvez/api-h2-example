@@ -1,4 +1,5 @@
-package com.example.restservice;
+package com.example.restservice.domain;
+import com.example.restservice.infrastructure.IPlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -8,7 +9,7 @@ import java.util.List;
 public class PlayerController {
 
 	@Autowired
-	IPlayerRepository playerRepository;
+    IPlayerRepository playerRepository;
 
 	@GetMapping("/players/{id}")
 	public PlayerDTO playerById(@PathVariable int id) {

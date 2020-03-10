@@ -1,4 +1,7 @@
-package com.example.restservice;
+package com.example.restservice.infrastructure;
+import com.example.restservice.domain.Player;
+import com.example.restservice.domain.PlayerDTO;
+import com.example.restservice.domain.PlayerRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;

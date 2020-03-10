@@ -1,4 +1,7 @@
-package com.example.restservice;
+package com.example.restservice.infrastructure;
+
+import com.example.restservice.domain.Player;
+import com.example.restservice.domain.PlayerDTO;
 
 import java.util.List;
 
